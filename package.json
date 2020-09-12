@@ -1,13 +1,13 @@
 {
   "name": "youdi_cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "youdi_cli": "./bin/cli"
+    "youdi_cli": "./lib/index.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "archiver": "^3.1.1",
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
+    "cross-spawn": "^7.0.3",
     "download-git-repo": "^2.0.0",
     "fs-extra": "^8.1.0",
     "handlebars": "^4.4.2",
